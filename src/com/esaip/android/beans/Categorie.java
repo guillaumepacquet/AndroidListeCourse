@@ -1,6 +1,6 @@
 package com.esaip.android.beans;
 
-public class Catégorie {
+public class Categorie {
 	
     
 	//Variables de classe
@@ -12,20 +12,20 @@ public class Catégorie {
     
     
     // Constructeurs de classe
-    public Catégorie() {
+    public Categorie() {
     }
 
-    public Catégorie(int id, String nom, String description) {
+    public Categorie(int id, String nom, String description) {
         this.id = id;
         this.nom = nom;
         this.description = description;
     }
 
-    public Catégorie(int id) {
+    public Categorie(int id) {
         this.id = id;
     }
 
-    public Catégorie(int id, String nom) {
+    public Categorie(int id, String nom) {
         this.id = id;
         this.nom = nom;
     }

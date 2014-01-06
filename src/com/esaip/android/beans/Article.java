@@ -9,11 +9,11 @@ public class Article {
     private String nom;
     private double prix;
     private String description;
-    Catégorie cat;
+    Categorie cat;
 
     //Constructeurs de classe
     
-    public Article(int id, String nom, double prix, String description, Catégorie cat) {
+    public Article(int id, String nom, double prix, String description, Categorie cat) {
         this.id = id;
         this.nom = nom;
         this.prix = prix;
@@ -65,11 +65,11 @@ public class Article {
         this.description = description;
     }
 
-    public Catégorie getCat() {
+    public Categorie getCat() {
         return cat;
     }
 
-    public void setCat(Catégorie cat) {
+    public void setCat(Categorie cat) {
         this.cat = cat;
     }
 }
