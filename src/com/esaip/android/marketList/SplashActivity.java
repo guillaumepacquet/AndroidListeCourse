@@ -2,6 +2,10 @@ package com.esaip.android.marketList;
 
 
 
+import java.util.ArrayList;
+
+import com.esaip.android.beans.ContainerData;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -13,7 +17,7 @@ public class SplashActivity extends Activity {
 	public View btnStart;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_splash);
 		btnStart= findViewById(R.id.btnStart);
 		btnStart.setOnClickListener(new View.OnClickListener() {

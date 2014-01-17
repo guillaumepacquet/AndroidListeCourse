@@ -25,8 +25,7 @@ public class Categorie {
         this.id = id;
     }
 
-    public Categorie(int id, String nom) {
-        this.id = id;
+    public Categorie(String nom) {
         this.nom = nom;
     }
     
