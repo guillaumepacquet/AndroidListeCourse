@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Articles>
+	<Article>
+		<nom>tomate</nom>
+		<prix>2</prix>
+		<image></image>
+		<categorie>Legume</categorie>
+		<description>legume rouge</description>
+	</Article>
+	<Article>
+		<nom>pomme de terre</nom>
+		<prix>3</prix>
+		<image></image>
+		<categorie>feculent</categorie>
+		<description></description>
+	</Article>
+	<Article>
+		<nom>banane</nom>
+		<prix></prix>
+		<image></image>
+		<categorie></categorie>
+		<description></description>
+	</Article>
+	<Article>
+		<nom>pomme</nom>
+		<prix></prix>
+		<image></image>
+		<categorie></categorie>
+		<description></description>
+	</Article>
+	<Article>
+		<nom>boeuf</nom>
+		<prix></prix>
+		<image></image>
+		<categorie></categorie>
+		<description></description>
+	</Article>
+	<Article>
+		<nom>frite</nom>
+		<prix></prix>
+		<image></image>
+		<categorie></categorie>
+		<description></description>
+	</Article>
+</Articles>
